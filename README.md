@@ -29,7 +29,7 @@
 
     <!-- Header & Navigation -->
     <header id="home" class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
-        <div class="w-full max-w-screen-2xl mx-auto px-6 py-4 flex justify-between items-center">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#home" class="text-xl font-bold text-indigo-600 whitespace-nowrap">Jake Palmer & Zander Mettler</a>
             <nav class="hidden md:flex space-x-6 items-center">
                 <a href="#about" class="text-gray-600 hover:text-indigo-600 transition-colors whitespace-nowrap">About Us</a>
@@ -57,7 +57,7 @@
     <main>
         <!-- Hero Section -->
         <section class="py-24 md:py-32 bg-white">
-            <div class="w-full max-w-screen-2xl mx-auto px-6 text-center">
+            <div class="container mx-auto px-6 text-center">
                 <img src="DSC_0142-removebg-preview.png" alt="Jake Palmer" class="w-32 h-32 md:w-40 md:h-40 object-cover mx-auto rounded-full shadow-2xl mb-6 ring-4 ring-indigo-100" onerror="this.onerror=null;this.src='https://placehold.co/150x150/E9D5FF/4C1D95?text=Jake+P';">
                 <h1 class="text-4xl md:text-6xl font-extrabold mb-4">
                     The <span class="gradient-text bg-gradient-to-r from-indigo-500 to-purple-600">Communal Fork Party</span>
@@ -69,7 +69,7 @@
 
         <!-- About Us Section -->
         <section id="about" class="py-20 md:py-28">
-            <div class="w-full max-w-screen-2xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
                 <div>
                     <h2 class="text-3xl font-bold mb-4 text-gray-900">Meet <span class="text-indigo-600">Jake & Zander</span></h2>
                     <p class="text-gray-700 mb-4 leading-relaxed">
@@ -87,7 +87,7 @@
         
         <!-- Our Philosophy Section -->
         <section id="philosophy" class="py-20 md:py-28 bg-white">
-            <div class="w-full max-w-4xl mx-auto px-6 text-center">
+            <div class="container mx-auto px-6 max-w-4xl text-center">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900">The Philosophy of the Communal Fork</h2>
                 <p class="text-lg text-gray-600 mt-2 mb-8">It's more than just a utensil; it's an idea.</p>
                 <div class="text-left space-y-4 text-gray-700 leading-relaxed bg-gray-50 p-8 rounded-2xl border border-gray-200">
@@ -103,7 +103,7 @@
 
         <!-- Platform Section -->
         <section id="platform" class="py-20 md:py-28">
-            <div class="w-full max-w-screen-2xl mx-auto px-6">
+            <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Our Three Main Promises</h2>
                     <p class="text-lg text-gray-600 mt-2">Simple. Essential. Guaranteed.</p>
@@ -139,7 +139,7 @@
 
         <!-- Our Impact Section -->
         <section id="impact" class="py-20 md:py-28 bg-white">
-            <div class="w-full max-w-screen-2xl mx-auto px-6">
+            <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-900">More Than Just Forks</h2>
                     <p class="text-lg text-gray-600 mt-2">Our platform has tangible benefits for health and our local economy.</p>
@@ -166,7 +166,7 @@
 
         <!-- Events Section -->
         <section id="events" class="py-20 md:py-28">
-            <div class="w-full max-w-screen-2xl mx-auto px-6">
+            <div class="container mx-auto px-6">
                  <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Planned Events</h2>
                     <p class="text-lg text-gray-600 mt-2">Come meet us, ask questions, and share your ideas!</p>
@@ -190,7 +190,7 @@
 
         <!-- Contact Us Section -->
         <section id="contact" class="py-20 md:py-32 bg-indigo-700 text-white">
-            <div class="w-full max-w-screen-2xl mx-auto px-6 text-center">
+            <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
                 <p class="text-lg text-indigo-200 max-w-2xl mx-auto mb-8">Have questions, ideas, or just want to say hi? Reach out to us directly!</p>
                 <div class="flex flex-col sm:flex-row justify-center items-center gap-8">
@@ -209,7 +209,7 @@
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-gray-300">
-        <div class="w-full max-w-screen-2xl mx-auto px-6 py-8 text-center">
+        <div class="container mx-auto px-6 py-8 text-center">
             <p class="mb-2">&copy; 2025 Campaign for Jake Palmer & Zander Mettler</p>
             <p class="text-sm text-gray-500">Paid for by the Communal Fork Party</p>
         </div>
@@ -288,6 +288,4 @@
     </script>
 </body>
 </html>
-
-
 
